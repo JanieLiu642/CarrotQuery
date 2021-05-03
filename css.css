@@ -81,3 +81,23 @@
 
 }
 
+.btn:active {
+    transform: scale(1);
+    background-color:#F4FEFF;
+}
+
+.symbol:active {
+   transform: scale(1);
+    background:#D9FBFF;
+}
+
+.equal-sign:active {
+    transform: scale(1);
+    background:#45E3FF;
+}
+
+@media (max-width: 350px) {
+    .container {
+        width: 90%;
+    }
+}
